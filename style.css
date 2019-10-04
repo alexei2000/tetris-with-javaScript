@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("paisaje.jpg") no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    top: 20px;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#display{
+    border: 3px #ffffff solid;
+}
+#info{
+    margin-left: 5px;
+    position: relative;
+    background: #ffffff57;
+    border: 3px #ffffff11 solid;
+}
